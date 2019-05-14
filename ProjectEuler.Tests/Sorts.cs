@@ -88,7 +88,7 @@ namespace ProjectEuler.Tests
         [TestMethod]
         public void QuickSortTest()
         {
-            int[] sorted = InsertionSort.Sort(numbers);
+            int[] sorted = QuickSort.Sort(numbers);
 
             Assert.AreEqual(sorted[0], 1);
             Assert.AreEqual(sorted[1], 3);

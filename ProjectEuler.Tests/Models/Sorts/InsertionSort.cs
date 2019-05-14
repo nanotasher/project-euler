@@ -34,7 +34,7 @@ namespace ProjectEuler.Tests.Models.Sorts
                     sorted[j + 1] = sorted[j];
                     j = j - 1;
                 }
-                //  insert the element where it belongs
+                //  insert the element where it belongs (before all elements that were pushed)
                 sorted[j + 1] = t;
             }
 
